@@ -1,0 +1,31 @@
+{
+  "fileheader.tpl": "/*\r\n * @Author: {author}\r\n * @Date: {createTime}\r\n * Copyright © HHZ. All rights reserved.\r\n */\r\n",
+  "typescript.surveys.enabled": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.format.enable": true,
+  "editor.renderFinalNewline": true,
+  "files.insertFinalNewline": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}
